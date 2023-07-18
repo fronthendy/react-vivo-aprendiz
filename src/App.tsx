@@ -1,15 +1,12 @@
 // importar componente
-import HelloWorld from "./components/HelloWorld"
-import Header from "./components/Header"
+import Routes from "./Routes";
 
 function App() {
-
   return (
     <>
-      <Header/>
-      <HelloWorld />
+      <Routes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
