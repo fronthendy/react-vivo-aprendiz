@@ -1,6 +1,5 @@
 import logoConexos from "../../assets/logo-conexos-white.png";
 import { HeaderStyled, Container, Menu } from "./style";
-import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -12,13 +11,13 @@ export default function Header() {
           <Menu>
             <ul>
               <li>
-                <Link to="/home">Início</Link>
+                <a href="#">Início</a>
               </li>
               <li>
-                <Link to="#">Serviços</Link>
+                <a href="#">Serviços</a>
               </li>
               <li>
-                <Link to="#">Relatórios</Link>
+                <a href="#">Relatórios</a>
               </li>
             </ul>
           </Menu>

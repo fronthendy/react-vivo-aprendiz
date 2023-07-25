@@ -2,10 +2,6 @@ import styled from "styled-components";
 
 export const HeaderStyled = styled.header`
   background-color: #556ff5;
-
-  img {
-    width: 150px;
-  }
 `;
 
 export const Container = styled.div`
@@ -15,7 +11,6 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 `;
 
 export const Menu = styled.nav`
@@ -29,8 +24,8 @@ export const Menu = styled.nav`
     li {
       padding: 10px;
       a:any-link {
-        text-decoration: none;
         color: #fff;
+        text-decoration: none;
       }
     }
   }

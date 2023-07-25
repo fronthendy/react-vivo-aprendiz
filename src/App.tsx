@@ -1,6 +1,6 @@
 // importar componente
 import Routes from "./Routes";
-import { GlobalStyle } from "./style.ts";
+import { GlobalStyle } from "./geral";
 
 function App() {
   return (
